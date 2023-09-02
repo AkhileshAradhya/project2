@@ -1,0 +1,27 @@
+
+#from the above code the class name must be started with "Capital letter"
+
+class Sma
+ @@VAR=1
+ def aba 
+ puts @@VAR
+ end
+end
+ab=Sma.new
+ab.aba
+
+# to get user defined value
+puts "enter value of X,Y"
+X=gets
+
+# constructor must use keyword "initialize"
+
+class Rectangle
+#constructor
+def initialize (1,b)
+@length = 1
+@breadth = b
+end
+end 
+a=Rectangle.new(1,4)
+
